@@ -2,7 +2,8 @@
 #include<conio.h>
 int findpos(int[],int,int);
 void main()
-{clrscr();
+{
+clrscr();
 int ar[50],item,n,index;
 cout<<"How many elements do you want to create array with..?";
 cin>>n;
