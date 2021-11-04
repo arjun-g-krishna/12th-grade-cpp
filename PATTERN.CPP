@@ -1,14 +1,13 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+#include<stdio.h>
+int main()
 {
-    clrscr();
     int i,j;
     for(i=1;i<=10;++i)
     {
-      cout<<"\n";
+      std::cout<<"\n";
       for(j=1;j<=i;++j)
-        cout<<"+";
+        std::cout<<"+";
     }
-    getch();
+	return 0;
 }
